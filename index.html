@@ -77,8 +77,8 @@
         }
 
         .brand-mark {
-            width: 52px;
-            height: 52px;
+            width: 104px;
+            height: 104px;
             border-radius: 12px;
             object-fit: contain;
             background: rgba(255,255,255,0.08);
@@ -205,20 +205,6 @@
             object-fit: cover;
         }
 
-        .logo-badge {
-            position: absolute;
-            left: 50%;
-            bottom: -14px;
-            transform: translateX(-50%);
-            width: 120px;
-            height: 120px;
-            padding: 0.8rem;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.92);
-            box-shadow: 0 14px 28px rgba(27, 8, 10, 0.18);
-            border: 4px solid var(--accent-color);
-        }
-
         .spanish-tag {
             display: inline-flex;
             align-items: center;
@@ -255,9 +241,7 @@
             max-width: 46rem;
         }
 
-        .manifesto-grid,
-        .gallery-grid,
-        .bio-grid {
+        .manifesto-grid {
             display: grid;
             grid-template-columns: repeat(3, minmax(0, 1fr));
             gap: 1.5rem;
@@ -271,8 +255,7 @@
             padding: 1.5rem;
         }
 
-        .manifesto-grid .card,
-        .bio-grid .card {
+        .manifesto-grid .card {
             border-top: 5px solid var(--accent-color);
         }
 
@@ -284,29 +267,6 @@
 
         .card p {
             color: var(--text-muted);
-        }
-
-        .gallery-card {
-            overflow: hidden;
-            padding: 0;
-        }
-
-        .gallery-card img {
-            width: 100%;
-            height: 260px;
-            object-fit: cover;
-        }
-
-        .gallery-body {
-            padding: 1.2rem 1.2rem 1.4rem;
-        }
-
-        .gallery-body h3 {
-            margin-bottom: 0.3rem;
-        }
-
-        .gallery-body p {
-            font-size: 0.92rem;
         }
 
         .bio-box {
@@ -370,21 +330,13 @@
             margin-top: 4rem;
         }
 
-        footer p + p {
-            margin-top: 0.4rem;
-            font-size: 0.9rem;
-            opacity: 0.9;
-        }
-
         footer a {
             color: #f6d577;
         }
 
         @media (max-width: 900px) {
             .hero-inner,
-            .manifesto-grid,
-            .gallery-grid,
-            .bio-grid {
+            .manifesto-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -437,9 +389,8 @@
     <section class="hero">
         <div class="container hero-inner">
             <div>
-                <span class="eyebrow">Research Software Engineering</span>
-                <h1>Hemos ganado dos Mundiales. ¿Y la RSE en España?</h1>
-                <p>Hay una comunidad hispanoablante que ya comparte conocimientos y charlas en español. Lo que aún no existe es un movimiento claro y organizado en España.</p>
+                <h1>Sembrando la semilla para crear una Sociedad de RSE en España</h1>
+                <p>Hemos ganado dos Mundiales, somos el segundo destino turístico del mundo y líderes en alta velocidad ferroviaria y energía solar. ¿Y la RSE en España? Hay una comunidad hispanohablante que ya comparte conocimientos y <a href="https://charlas-rse-espanol.github.io/" target="_blank" rel="noreferrer" style="color: #fce7a1; font-weight: 700;">charlas en español</a>. Lo que aún no existe es un movimiento claro y organizado en España.</p>
 
                 <div class="hero-actions">
                     <a href="#manifiesto" class="btn">Saber más</a>
@@ -453,124 +404,75 @@
                 </div>
 
                 <div class="spanish-tag">Se habla español</div>
+                <p style="margin-top: 0.6rem; font-size: 0.85rem; color: #f6eedf;">Las <a href="https://charlas-rse-espanol.github.io/" target="_blank" rel="noreferrer" style="color: #fce7a1; font-weight: 700;">Charlas RSE en español</a> las organiza Carlos Gavidia-Calderón (Alan Turing Institute).</p>
             </div>
 
             <div class="hero-visual">
                 <div class="photo-stack">
                     <div class="photo-card big">
-                        <img src="images/RSE25.jpg" alt="Comunidad de Research Software Engineers" loading="lazy">
+                        <img src="images/RSE25.jpg" alt="RSE Conference 2025, Reino Unido" loading="lazy">
                     </div>
                     <div class="photo-card small">
-                        <img src="images/se_habla_espanol.jpg" alt="Comunidad hispanoablante de Research Software Engineers" loading="lazy">
+                        <img src="images/se_habla_espanol.jpg" alt="Asistentes hispanohablantes en la RSE Conference 2025" loading="lazy">
                     </div>
                 </div>
-                <img class="logo-badge" src="images/Soc_RSE_master_logo4-766x1024.png" alt="Logo de la comunidad RSE España">
             </div>
         </div>
     </section>
 
     <main class="main">
         <div class="container" id="manifiesto">
-            <div class="section-heading">
-                <h2>El reto</h2>
-                <p>Existe comunidad hispanoablante, se organizan charlas en español y hay interés real. Lo que aún no existe es una estructura sólida en España.</p>
-            </div>
-
             <div class="manifesto-grid">
                 <article class="card">
                     <h3>Necesidad</h3>
-                    <p>Hay talento en investigación y software, pero aún no hay una red nacional que lo conecte y lo reconozca.</p>
+                    <p>Hay talento en investigación y software, pero aún no hay una red nacional que lo conecte.</p>
                 </article>
 
                 <article class="card">
                     <h3>Oportunidad</h3>
-                    <p>La comunidad hispanoablante y la experiencia internacional muestran que esta estructura puede crecer.</p>
+                    <p>Otros países ya tienen comunidades RSE consolidadas. España puede construir la suya.</p>
                 </article>
 
                 <article class="card">
                     <h3>Objetivo</h3>
-                    <p>Crear una RSE España con base local, comunidad en español y presencia real en la investigación.</p>
+                    <p>Una RSE España con base local, comunidad en español y presencia real en la investigación.</p>
                 </article>
             </div>
 
             <div class="bio-box" style="margin-top: 2.5rem;">
                 <img class="bio-photo" src="images/Miguel-blog-website-image-615x340.png" alt="Miguel, impulsor de RSE España" loading="lazy">
                 <div>
-                    <h3>Quién lo está empezando</h3>
-                    <p>Estoy iniciando este movimiento desde el Reino Unido para poner en marcha una comunidad de RSE en España.</p>
-                    <div class="hero-actions" style="margin-top: 1rem; margin-bottom: 0;">
-                        <a href="https://jic.ac.uk/blog/how-research-software-engineers-are-bridging-the-gap-between-biology-and-computer-science/" class="btn" target="_blank" rel="noreferrer">Mi artículo</a>
-                        <a href="https://www.linkedin.com/in/cotxi/" class="btn secondary" target="_blank" rel="noreferrer" style="color: var(--primary-color); border-color: rgba(125, 31, 43, 0.25);">LinkedIn</a>
-                    </div>
+                    <h3>Quién lo está detras de esta iniciativa</h3>
+                    <p>Soy Miguel, Research Software Engineer en el John Innes Centre (Reino Unido) desde 2024. Mi trabajo consiste en tender puentes entre la biología y el software: ayudar a que la investigación cuente con herramientas fiables, reproducibles y sostenibles. Además, participo activamente en la comunidad RSE del Reino Unido, donde entre otras cosas ayudo a organizar encuentros regionales que reúnen a investigadores y técnicos de software de East Anglia.</p>
+                    <p style="margin-top: 0.6rem; font-size: 0.92rem;">
+                        <a href="https://rse-whpc.nbi.ac.uk/" target="_blank" rel="noreferrer" style="color: var(--primary-color); font-weight: 700;">Encuentro RSE en Norwich</a>
+                        · <a href="https://jic.ac.uk/blog/how-research-software-engineers-are-bridging-the-gap-between-biology-and-computer-science/" target="_blank" rel="noreferrer" style="color: var(--primary-color); font-weight: 700;">Blog del JIC</a>
+                        · <a href="https://www.linkedin.com/in/cotxi/" target="_blank" rel="noreferrer" style="color: var(--primary-color); font-weight: 700;">LinkedIn</a>
+                    </p>
                 </div>
             </div>
 
             <div class="callout">
                 <h2>¿Quieres colaborar?</h2>
-                <p>Si trabajas con software en investigación, o quieres ayudar a crear esta comunidad, escribe a <a href="mailto:rseespana@gmail.com" style="color: var(--primary-color); font-weight: 700;">rseespana@gmail.com</a>.</p>
+                <p>Escribe a <a href="mailto:rseespana@gmail.com" style="color: var(--primary-color); font-weight: 700;">rseespana@gmail.com</a>.</p>
                 <a href="https://github.com/rse-espana" class="btn" target="_blank" rel="noreferrer">Participa</a>
             </div>
         </div>
 
         <div class="container" style="margin-top: 4rem;">
             <div class="section-heading">
-                <h2>¿Qué es una RSE?</h2>
-                <p>Es la persona que une ciencia y software.</p>
+                <h2>¿Qué es un RSE?</h2>
+                <p>Un Research Software Engineer (RSE) es alguien que trabaja en investigación científica pero se dedica al software: diseña, escribe y mantiene el código que hace posible los resultados de un proyecto, aplicando prácticas de ingeniería a problemas de ciencia.</p>
+                <p style="margin-top: 0.8rem;">Es un perfil híbrido, a caballo entre la investigación y la ingeniería, y todavía poco reconocido en España. En el Reino Unido, por ejemplo, existe la <a href="https://society-rse.org/" target="_blank" rel="noreferrer" style="color: var(--primary-color); font-weight: 700;">Society of Research Software Engineering</a>, que lleva diez años organizando su conferencia anual y aboga por el reconocimiento de la figura del RSE, además de dar vida a su comunidad mediante grupos regionales y mentoría.</p>
+                <p style="margin-top: 0.8rem;">A nivel global, la <a href="https://www.researchsoft.org/" target="_blank" rel="noreferrer" style="color: var(--primary-color); font-weight: 700;">Research Software Alliance</a> coordina el International Council of RSE Associations, que agrupa a las asociaciones nacionales de RSE de todo el mundo. España, de momento, no aparece en el mapa.</p>
             </div>
 
-            <div class="bio-grid">
-                <article class="card">
-                    <h3>Investigación</h3>
-                    <p>Trabaja en problemas científicos con rigor y reproducibilidad.</p>
-                </article>
-
-                <article class="card">
-                    <h3>Software</h3>
-                    <p>Construye herramientas robustas, reutilizables y sostenibles.</p>
-                </article>
-
-                <article class="card">
-                    <h3>Comunidad</h3>
-                    <p>Conecta ciencia, ingeniería y colaboración real.</p>
-                </article>
-            </div>
-
-            <div class="section-heading" style="margin-top: 4rem;">
-                <h2>Inspiración internacional</h2>
-                <p>La comunidad RSE ya existe en otros países. España puede hacerlo también.</p>
-            </div>
-
-            <div class="gallery-grid">
-                <article class="card gallery-card">
-                    <img src="images/se_habla_espanol.jpg" alt="Comunidad hispanoablante en español" loading="lazy">
-                    <div class="gallery-body">
-                        <h3>Hispanoablante</h3>
-                        <p>Una comunidad en español que ya empieza a conectarse y compartir conocimiento.</p>
-                    </div>
-                </article>
-
-                <article class="card gallery-card">
-                    <img src="images/RSE25.jpg" alt="Conferencia internacional de RSE" loading="lazy">
-                    <div class="gallery-body">
-                        <h3>Referencia internacional</h3>
-                        <p>La comunidad RSE ya existe en otros países. España puede construir su propio camino.</p>
-                    </div>
-                </article>
-
-                <article class="card gallery-card">
-                    <img src="images/Soc_RSE_master_logo4-766x1024.png" alt="Logo de la comunidad RSE España" loading="lazy">
-                    <div class="gallery-body">
-                        <h3>Semilla en España</h3>
-                        <p>El objetivo es crear una red en español con base local y crecimiento real.</p>
-                    </div>
-                </article>
-            </div>
+            <img src="images/paises_RSE_aliance.png" alt="Mapa del International Council of RSE Associations: países con asociación miembro u observadora" style="border-radius: 16px; box-shadow: var(--shadow-soft); margin-top: 0.5rem;">
         </div>
     </main>
 
     <footer>
-        <p>Semilla de una comunidad RSE en España.</p>
-        <p>Inspirada en la experiencia internacional de la Research Software Engineering y en la colaboración de la comunidad científica.</p>
+        <p>Semilla de una comunidad RSE en España, inspirada en la experiencia internacional de la Research Software Engineering.</p>
     </footer>
 </body>
 </html>
