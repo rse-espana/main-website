@@ -187,6 +187,7 @@
         }
 
         .photo-card {
+            position: relative;
             background: rgba(255,255,255,0.12);
             border: 1px solid rgba(255,255,255,0.15);
             border-radius: 22px;
@@ -202,6 +203,28 @@
             transform: rotate(3deg) translateX(20px);
             width: 68%;
             justify-self: end;
+        }
+
+        .photo-card figcaption {
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            padding: 1.6rem 0.9rem 0.7rem;
+            font-size: 0.78rem;
+            color: #f6eedf;
+            text-align: center;
+            background: linear-gradient(0deg, rgba(24, 6, 9, 0.75) 0%, rgba(24, 6, 9, 0) 100%);
+            opacity: 0;
+            transform: translateY(6px);
+            transition: opacity 0.25s ease, transform 0.25s ease;
+            pointer-events: none;
+        }
+
+        .photo-card:hover figcaption,
+        .photo-card:focus-within figcaption {
+            opacity: 1;
+            transform: translateY(0);
         }
 
         .photo-card img {
@@ -400,6 +423,7 @@
                 <div class="hero-actions">
                     <a href="#participa" class="btn">Participar</a>
                     <a href="#que-es-rse" class="btn secondary">Saber más</a>
+                    <a href="#iniciativa" class="btn secondary">Iniciativa</a>
                 </div>
 
                 <div class="hero-meta">
@@ -414,12 +438,14 @@
 
             <div class="hero-visual">
                 <div class="photo-stack">
-                    <div class="photo-card big">
+                    <figure class="photo-card big">
                         <img src="images/RSE25.jpg" alt="RSE Conference 2025, Reino Unido" loading="lazy">
-                    </div>
-                    <div class="photo-card small">
+                        <figcaption>Comunidad RSE en la RSECon25</figcaption>
+                    </figure>
+                    <figure class="photo-card small">
                         <img src="images/se_habla_espanol.jpg" alt="Asistentes hispanohablantes en la RSE Conference 2025" loading="lazy">
-                    </div>
+                        <figcaption>Hispanohablantes en la RSECon25</figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
@@ -446,7 +472,7 @@
 
             <p style="margin-top: 1.5rem; text-align: center; font-size: 0.95rem; color: var(--text-muted);">Esta iniciativa se sembró en la <a href="https://rsecon25.society-rse.org/" target="_blank" rel="noreferrer" style="color: var(--primary-color); font-weight: 700;">RSECon25</a> y este año se ha puesto en marcha durante la <a href="https://rsecon26.society-rse.org/" target="_blank" rel="noreferrer" style="color: var(--primary-color); font-weight: 700;">RSECon26</a>.</p>
 
-            <div class="bio-box" style="margin-top: 2.5rem;">
+            <div class="bio-box" id="iniciativa" style="margin-top: 2.5rem;">
                 <img class="bio-photo" src="images/Miguel-blog-website-image-615x340.png" alt="Miguel, impulsor de RSE España" loading="lazy">
                 <div>
                     <h3>Quién está detrás de esta iniciativa</h3>
