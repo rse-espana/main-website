@@ -29,6 +29,8 @@ Soy Miguel, alcarreño afincado en Norwich, Reino Unido, Research Software Engin
 
 Escribe a [rseespana@gmail.com](mailto:rseespana@gmail.com), únete a nuestro [Slack](https://join.slack.com/t/rseespaa/shared_invite/zt-49k315z4l-LPBQWxZI_MuY61WrY4Tqkw) o participa en [GitHub](https://github.com/rse-espana).
 
+También puedes encontrarnos en el canal **#rse-es** del Slack de la Society of Research Software Engineering ([solicita acceso aquí](https://forms.gle/eU6536gnRtyCVGyh9)).
+
 ## ¿Qué es un RSE?
 
 Un **Research Software Engineer (RSE)** es alguien que trabaja en la intersección entre **investigación y tecnología**: diseña, desarrolla y mantiene el software, los datos y las infraestructuras que hacen posible la investigación, aplicando prácticas de ingeniería a problemas científicos y tecnológicos.
