@@ -23,7 +23,9 @@ Esta iniciativa se sembró en la [RSECon25](https://rsecon25.society-rse.org/) y
 
 Soy Miguel, alcarreño afincado en Norwich, Reino Unido, Research Software Engineer en el John Innes Centre desde 2024. Mi trabajo consiste en tender puentes entre la biología y el software: ayudar a que la investigación cuente con herramientas fiables, reproducibles y sostenibles. Además, participo activamente en la comunidad RSE del Reino Unido, donde entre otras cosas he organizado un encuentro regional en Norwich reuniendo a RSEs de East Anglia.
 
-Al estar fuera de España, lo que busco es gente dentro del país que quiera iniciar el movimiento y ayudar a construirlo. Yo puedo ejercer de enlace con la comunidad RSE internacional en el futuro si hace falta, pero esto tiene que nacer y crecer desde dentro.
+Al estar fuera de España, no pretendo construir este movimiento desde el Reino Unido. Lo que busco es encontrar a personas dentro de España que quieran iniciar el movimiento y ayudar a construirlo desde allí.
+
+Yo puedo actuar como enlace con la comunidad RSE internacional y aportar la experiencia adquirida en el Reino Unido, si resulta útil. Pero RSE España tiene que nacer, crecer y definirse desde dentro de España y por su propia comunidad.
 
 [Blog del JIC](https://jic.ac.uk/blog/how-research-software-engineers-are-bridging-the-gap-between-biology-and-computer-science/) · [Evento RSE East Anglia](https://rse-whpc.nbi.ac.uk/) · [LinkedIn](https://www.linkedin.com/in/cotxi/)
 
