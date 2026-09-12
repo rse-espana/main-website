@@ -23,13 +23,21 @@ Esta iniciativa se sembró en la [RSECon25](https://rsecon25.society-rse.org/) y
 
 Soy Miguel, alcarreño afincado en Norwich, Reino Unido, Research Software Engineer en el John Innes Centre desde 2024. Mi trabajo consiste en tender puentes entre la biología y el software: ayudar a que la investigación cuente con herramientas fiables, reproducibles y sostenibles. Además, participo activamente en la comunidad RSE del Reino Unido, donde entre otras cosas he organizado un encuentro regional en Norwich reuniendo a RSEs de East Anglia.
 
+Al estar fuera de España, lo que busco es gente dentro del país que quiera iniciar el movimiento y ayudar a construirlo. Yo puedo ejercer de enlace con la comunidad RSE internacional en el futuro si hace falta, pero esto tiene que nacer y crecer desde dentro.
+
 [Blog del JIC](https://jic.ac.uk/blog/how-research-software-engineers-are-bridging-the-gap-between-biology-and-computer-science/) · [Evento RSE East Anglia](https://rse-whpc.nbi.ac.uk/) · [LinkedIn](https://www.linkedin.com/in/cotxi/)
 
-## ¿Quieres colaborar?
+## ¿Quieres ayudar a construir la comunidad RSE en España?
 
-Escribe a [rseespana@gmail.com](mailto:rseespana@gmail.com), únete a nuestro [Slack](https://join.slack.com/t/rseespaa/shared_invite/zt-49k315z4l-LPBQWxZI_MuY61WrY4Tqkw) o participa en [GitHub](https://github.com/rse-espana).
+- Quiero participar
+- Trabajo como RSE / hago software para investigación
+- Quiero organizar una actividad
+- Quiero ayudar a crear la asociación
+- Quiero colaborar desde fuera de España
 
-También puedes encontrarnos en el canal **#rse-es** del Slack de la Society of Research Software Engineering ([solicita acceso aquí](https://forms.gle/eU6536gnRtyCVGyh9)).
+**[Quiero participar](mailto:rseespana@gmail.com)**
+
+También puedes escribir directamente a [rseespana@gmail.com](mailto:rseespana@gmail.com), unirte a nuestro [Slack](https://join.slack.com/t/rseespaa/shared_invite/zt-49k315z4l-LPBQWxZI_MuY61WrY4Tqkw), encontrarnos en el canal **#rse-es** del Slack de la Society of Research Software Engineering ([solicita acceso aquí](https://forms.gle/eU6536gnRtyCVGyh9)) o participar en [GitHub](https://github.com/rse-espana).
 
 ## ¿Qué es un RSE?
 
