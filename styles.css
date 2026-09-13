@@ -462,11 +462,20 @@ header {
     font-size: 1.1rem;
 }
 
+.resource-icon {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: var(--shadow-soft);
+    margin-top: auto;
+}
+
 .resource-card .badges {
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
-    order: -1;
+    order: 2;
 }
 
 .resource-badge {
@@ -496,6 +505,10 @@ header {
     text-decoration: none;
     border-bottom: 2px solid var(--accent-color);
     padding-bottom: 0.1rem;
+}
+
+.resource-card .resource-icon + .resource-link {
+    margin-top: 0;
 }
 
 .resource-card .resource-link:hover {
