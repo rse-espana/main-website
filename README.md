@@ -4,7 +4,7 @@
 
 Hemos ganado dos Mundiales de fútbol, somos el segundo destino turístico del mundo y líderes en alta velocidad ferroviaria y energía solar. ¿Y la RSE en España? Hay una comunidad hispanohablante que ya comparte conocimientos en las [charlas RSE en español](https://charlas-rse-espanol.github.io/). Lo que aún no existe es un movimiento claro y organizado en España.
 
-Las [Charlas RSE en español](https://charlas-rse-espanol.github.io/) están organizadas por Carlos Gavidia-Calderón (Alan Turing Institute) y Sofía Miñano (Sainsbury Wellcome Centre, UCL).
+Las [Charlas RSE en español](https://charlas-rse-espanol.github.io/) están co-organizadas por Sofía Miñano (Sainsbury Wellcome Centre, UCL, [@sfmig](https://github.com/sfmig)) y Carlos Gavidia-Calderón (Alan Turing Institute, [@cptanalatriste](https://github.com/cptanalatriste)).
 
 ## Necesidad, oportunidad, objetivo
 
