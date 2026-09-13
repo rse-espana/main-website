@@ -37,7 +37,7 @@ Yo puedo actuar como enlace con la comunidad RSE internacional y aportar la expe
 - Quiero ayudar a crear la asociación
 - Quiero colaborar desde fuera de España
 
-**[Quiero participar](mailto:rseespana@gmail.com)**
+**[Rellena la encuesta](https://forms.gle/CCqL3apnBgj6oLNW9)**
 
 También puedes escribir directamente a [rseespana@gmail.com](mailto:rseespana@gmail.com), unirte a nuestro [Slack](https://join.slack.com/t/rseespaa/shared_invite/zt-49k315z4l-LPBQWxZI_MuY61WrY4Tqkw), encontrarnos en el canal **#rse-es** del Slack de la Society of Research Software Engineering ([solicita acceso aquí](https://forms.gle/eU6536gnRtyCVGyh9)) o participar en [GitHub](https://github.com/rse-espana).
 
