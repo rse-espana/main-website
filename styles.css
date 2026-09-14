@@ -78,8 +78,45 @@ header {
     height: 76px;
     border-radius: 12px;
     object-fit: contain;
-    background: rgba(255,255,255,0.08);
+    background: #fffaf2;
     padding: 6px;
+}
+
+.logo-wrap {
+    position: relative;
+    display: inline-flex;
+    line-height: 0;
+}
+
+.logo-popover {
+    position: absolute;
+    top: calc(100% + 14px);
+    left: 0;
+    transform: translateY(-8px);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    background: #fffaf2;
+    border-radius: 20px;
+    padding: 1.1rem;
+    box-shadow: 0 20px 45px rgba(49, 12, 17, 0.35);
+    z-index: 50;
+}
+
+.logo-popover img {
+    display: block;
+    width: 200px;
+    max-width: 60vw;
+    height: auto;
+}
+
+.logo-wrap:hover .logo-popover,
+.logo-wrap:focus-within .logo-popover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
 }
 
 .btn {
