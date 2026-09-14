@@ -100,6 +100,14 @@ header {
     transform: translateY(-1px);
 }
 
+.flag-icon {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
 .btn.secondary {
     background: transparent;
     color: white;
