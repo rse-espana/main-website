@@ -199,10 +199,23 @@ header {
     transform: rotate(-2deg);
 }
 
+.photo-row {
+    display: flex;
+    gap: 1rem;
+}
+
 .photo-card.small {
-    transform: rotate(3deg) translateX(20px);
-    width: 68%;
-    justify-self: end;
+    flex: 1;
+    min-width: 0;
+    transform: rotate(3deg);
+}
+
+.photo-card.small:last-child {
+    transform: rotate(-3deg);
+}
+
+.photo-row .photo-card img {
+    height: 170px;
 }
 
 .photo-card figcaption {
@@ -550,9 +563,13 @@ footer a {
         padding-top: 3rem;
     }
 
-    .photo-card.small {
-        width: 80%;
-        transform: rotate(2deg) translateX(0);
+    .photo-row {
+        flex-direction: column;
+    }
+
+    .photo-card.small,
+    .photo-card.small:last-child {
+        transform: rotate(1deg);
     }
 }
 
