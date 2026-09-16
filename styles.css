@@ -82,6 +82,17 @@ header {
     padding: 6px;
 }
 
+.brand-mark-link {
+    display: inline-flex;
+}
+
+.nav-links {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .btn {
     display: inline-block;
     background: var(--accent-color);
@@ -113,6 +124,12 @@ header {
     color: white;
     border: 1px solid rgba(255,255,255,0.5);
     box-shadow: none;
+}
+
+.nav-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
 }
 
 .hero {
@@ -587,6 +604,18 @@ footer a {
         width: 100%;
         text-align: center;
         justify-content: center;
+    }
+
+    .nav-links .btn {
+        width: 42px;
+        height: 42px;
+        padding: 0;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .nav-links .btn-label {
+        display: none;
     }
 
     .hero-actions {
