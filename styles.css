@@ -235,6 +235,15 @@ header {
     height: 170px;
 }
 
+.photo-card.wide {
+    transform: rotate(-1deg);
+}
+
+.photo-card.wide img {
+    height: auto;
+    object-fit: contain;
+}
+
 .photo-card figcaption {
     position: absolute;
     left: 0;
